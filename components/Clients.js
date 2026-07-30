@@ -12,14 +12,13 @@ export default function Clients() {
   return (
     <section className="clients-band">
       <div className="container">
-        <div className="section-head reveal" style={{ marginBottom: "32px" }}>
-          <span className="eyebrow">Trusted By</span>
-          <h2 style={{ fontSize: "1.6rem" }}>Some of our clients</h2>
+        <div className="section-head reveal" style={{ marginBottom: "20px", textAlign: "center", maxWidth: "none" }}>
+          <h2 style={{ fontSize: "2rem", letterSpacing: "0.09em" }}>Some of our clients</h2>
         </div>
         <div className="clients-row reveal">
           {CLIENTS.map((client) => (
             <div className="client-logo" key={client.alt}>
-              <Image src={client.src} alt={client.alt} width={200} height={80} />
+              <Image src={client.src} alt={client.alt} width={280} height={120} />
             </div>
           ))}
         </div>

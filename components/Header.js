@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 const NAV_LINKS = [
   { href: "#about", label: "About" },
@@ -25,8 +26,14 @@ export default function Header() {
     <header className={scrolled ? "scrolled" : ""}>
       <div className="nav-row">
         <a href="#top" className="brand">
-          Cook Coatings
-          <span>CCI &middot; Est. 1983</span>
+          <Image
+            src="/images/cook-coatings-logo-white.png"
+            alt="Cook Coatings Inc"
+            width={1209}
+            height={379}
+            priority
+            className="brand-logo"
+          />
         </a>
         <nav className="primary-nav">
           {NAV_LINKS.map((link) => (
