@@ -23,7 +23,7 @@ export async function POST(request) {
     const serviceList = Array.isArray(services) && services.length ? services.join(", ") : "Not specified";
 
     const { error } = await resend.emails.send({
-      from: "Cook Coatings Website <onboarding@resend.dev>",
+      from: "Cook Coatings Website <noreply@cookcoatingsinc.com>",
       to: TO_EMAIL,
       replyTo: email,
       subject: `New estimate request from ${name}`,
