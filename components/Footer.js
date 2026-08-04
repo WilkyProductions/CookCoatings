@@ -14,7 +14,13 @@ export default function Footer() {
           </div>
           <div>
             <h5>Head Office</h5>
-            <p>Temecula, CA 92590</p>
+            <p>
+              41680 Enterprise Cir S.
+              <br />
+              STE A/B
+              <br />
+              Temecula, CA 92590
+            </p>
             <p style={{ marginTop: "10px" }}>
               Office: 951-296-2664
               <br />
