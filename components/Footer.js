@@ -31,22 +31,22 @@ export default function Footer() {
             <h5>Navigation</h5>
             <ul>
               <li>
-                <a href="#about">About CCI</a>
+                <a href="/#about">About CCI</a>
               </li>
               <li>
-                <a href="#services">Services</a>
+                <a href="/#services">Services</a>
               </li>
               <li>
-                <a href="#maintenance">Maintenance Plans</a>
+                <a href="/#maintenance">Maintenance Plans</a>
               </li>
               <li>
-                <a href="#projects">Projects</a>
+                <a href="/projects">Projects</a>
               </li>
               <li>
-                <a href="#faq">FAQ</a>
+                <a href="/#faq">FAQ</a>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <a href="/#contact">Contact</a>
               </li>
             </ul>
           </div>

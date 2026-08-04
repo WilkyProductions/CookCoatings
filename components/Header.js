@@ -4,11 +4,11 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 
 const NAV_LINKS = [
-  { href: "#about", label: "About" },
-  { href: "#services", label: "Services" },
-  { href: "#maintenance", label: "Maintenance Plans" },
-  { href: "#projects", label: "Projects" },
-  { href: "#contact", label: "Contact" },
+  { href: "/#services", label: "Services" },
+  { href: "/#maintenance", label: "Maintenance Plans" },
+  { href: "/#about", label: "About" },
+  { href: "/projects", label: "Projects" },
+  { href: "/#contact", label: "Contact" },
 ];
 
 export default function Header() {
@@ -25,7 +25,7 @@ export default function Header() {
   return (
     <header className={scrolled ? "scrolled" : ""}>
       <div className="nav-row">
-        <a href="#top" className="brand">
+        <a href="/" className="brand">
           <Image
             src="/images/cook-coatings-logo-white.png"
             alt="Cook Coatings Inc"
@@ -49,7 +49,7 @@ export default function Header() {
             </svg>
             951-296-2664
           </a>
-          <a className="btn btn-primary" href="#contact">
+          <a className="btn btn-primary" href="/#contact">
             Get Free Estimate
           </a>
         </div>
