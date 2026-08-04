@@ -13,7 +13,7 @@ export default function ContactCTA() {
           <a className="btn btn-primary" href="tel:+19512962664">
             Call 951-296-2664
           </a>
-          <a className="btn btn-outline" href="mailto:info@cookcoatingsinc.com">
+          <a className="btn btn-outline" href="mailto:cookcoatingsinc@yahoo.com">
             Email Us
           </a>
         </div>

@@ -43,7 +43,7 @@ export default function ContactPage() {
                 </li>
                 <li>
                   <span className="label">Email</span>
-                  <a href="mailto:info@cookcoatingsinc.com">info@cookcoatingsinc.com</a>
+                  <a href="mailto:cookcoatingsinc@yahoo.com">cookcoatingsinc@yahoo.com</a>
                 </li>
                 <li>
                   <span className="label">Office</span>

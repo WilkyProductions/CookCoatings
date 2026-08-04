@@ -1,6 +1,6 @@
 import { Resend } from "resend";
 
-const TO_EMAIL = "cookcoatings@gmail.com";
+const TO_EMAIL = "cookcoatingsinc@yahoo.com";
 
 export async function POST(request) {
   try {
