@@ -41,7 +41,7 @@ export default function Maintenance() {
                 </li>
               ))}
             </ul>
-            <a className="btn btn-primary" href="#contact">
+            <a className="btn btn-primary" href="/contact">
               Ask About Maintenance Plans
             </a>
           </div>

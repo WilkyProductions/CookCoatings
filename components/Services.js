@@ -51,7 +51,7 @@ export default function Services() {
                 A high-performance roof coating system designed to extend lifespan and prevent
                 costly damage from day one.
               </p>
-              <a className="learn" href="#contact">
+              <a className="learn" href="/contact">
                 Learn more &rarr;
               </a>
             </div>
@@ -71,7 +71,7 @@ export default function Services() {
                 A smarter alternative to full replacement: restoration with Poly-SIL
                 membrane for long-lasting protection.
               </p>
-              <a className="learn" href="#contact">
+              <a className="learn" href="/contact">
                 Learn more &rarr;
               </a>
             </div>

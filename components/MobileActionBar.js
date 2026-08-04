@@ -7,7 +7,7 @@ export default function MobileActionBar() {
         </svg>
         Call Now
       </a>
-      <a className="estimate" href="/#contact">
+      <a className="estimate" href="/contact">
         Get Free Estimate
       </a>
     </div>

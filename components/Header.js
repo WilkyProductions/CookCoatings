@@ -9,7 +9,7 @@ const NAV_LINKS = [
   { href: "/#maintenance", label: "Maintenance Plans" },
   { href: "/#about", label: "About" },
   { href: "/projects", label: "Projects" },
-  { href: "/#contact", label: "Contact" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export default function Header() {
@@ -53,7 +53,7 @@ export default function Header() {
             </svg>
             951-296-2664
           </a>
-          <a className="btn btn-primary" href="/#contact">
+          <a className="btn btn-primary" href="/contact">
             Get Free Estimate
           </a>
         </div>

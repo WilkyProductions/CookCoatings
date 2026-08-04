@@ -22,7 +22,7 @@ export default function Hero() {
           cost or waste of a full tear-off.
         </p>
         <div className="hero-ctas">
-          <a className="btn btn-primary" href="#contact">
+          <a className="btn btn-primary" href="/contact">
             Get Free Estimate
           </a>
           <a className="btn btn-outline" href="#maintenance">
