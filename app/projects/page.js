@@ -4,6 +4,7 @@ import MobileActionBar from "@/components/MobileActionBar";
 import Footer from "@/components/Footer";
 import ScrollReveal from "@/components/ScrollReveal";
 import ProjectSlideshow from "@/components/ProjectSlideshow";
+import ProjectsSideNav from "@/components/ProjectsSideNav";
 import { PROJECTS } from "@/data/projects";
 
 export const metadata = {
@@ -20,6 +21,10 @@ export default function ProjectsPage() {
     <>
       <Header />
       <MobileActionBar />
+      <div className="blueprint-bg" aria-hidden="true">
+        <div className="blueprint-photo"></div>
+        <div className="blueprint-grid"></div>
+      </div>
       <section className="page-intro">
         <div className="container">
           <Link href="/" className="back-link">
@@ -32,16 +37,10 @@ export default function ProjectsPage() {
           </p>
         </div>
       </section>
-      <section style={{ background: "var(--white)" }}>
+      <section className="projects-content">
         <div className="container">
           <div className="projects-layout">
-            <nav className="projects-side-nav" aria-label="Project list">
-              {PROJECTS.map((project) => (
-                <a key={project.slug} href={`#${project.slug}`}>
-                  {project.title}
-                </a>
-              ))}
-            </nav>
+            <ProjectsSideNav projects={PROJECTS} />
             <div>
               {PROJECTS.map((project) => (
                 <section id={project.slug} className="project-section reveal" key={project.slug}>

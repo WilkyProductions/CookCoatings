@@ -551,7 +551,24 @@ footer ul{ list-style:none; display:flex; flex-direction:column; gap:10px; }
 .footer-bottom a{ color:rgba(255,255,255,0.5); }
 
 /* ---------- PROJECTS PAGE ---------- */
-.page-intro{ padding:140px 0 40px; background:var(--paper); }
+.blueprint-bg{ position:fixed; inset:0; z-index:-1; overflow:hidden; background:var(--paper); }
+.blueprint-photo{
+  position:absolute; inset:0;
+  background-image:url('/images/projects/aerial-roof-project.jpg');
+  background-size:cover;
+  background-position:center;
+  filter:grayscale(1) sepia(1) hue-rotate(175deg) saturate(3) brightness(1.6);
+  opacity:0.07;
+}
+.blueprint-grid{
+  position:absolute; inset:0;
+  background-image:
+    repeating-linear-gradient(0deg, var(--steel) 0 1px, transparent 1px 48px),
+    repeating-linear-gradient(90deg, var(--steel) 0 1px, transparent 1px 48px);
+  opacity:0.05;
+}
+
+.page-intro{ padding:140px 0 40px; }
 @media (min-width:900px){ .page-intro{ padding:170px 0 56px; } }
 .page-intro .back-link{
   display:inline-flex; align-items:center; gap:6px;
@@ -564,35 +581,57 @@ footer ul{ list-style:none; display:flex; flex-direction:column; gap:10px; }
 @media (min-width:900px){ .page-intro h1{ font-size:2.6rem; } }
 .page-intro p{ color:var(--steel); max-width:60ch; }
 
+.projects-content{ position:relative; }
+
 .projects-layout{ display:grid; grid-template-columns:1fr; gap:32px; padding-bottom:80px; }
 @media (min-width:900px){
   .projects-layout{ grid-template-columns:230px 1fr; gap:48px; align-items:start; }
 }
 
-.projects-side-nav{ display:flex; flex-direction:column; gap:2px; }
+.projects-side-nav{
+  display:flex; flex-direction:column; gap:2px;
+  position:relative;
+  padding-left:16px;
+  border-left:1px solid var(--line);
+}
 @media (min-width:900px){ .projects-side-nav{ position:sticky; top:96px; } }
 .projects-side-nav a{
-  padding:10px 14px;
+  display:flex; align-items:baseline; gap:10px;
+  padding:9px 12px;
   border-radius:var(--radius);
   border-left:2px solid transparent;
+  margin-left:-17px;
   font-family:var(--font-oswald), sans-serif;
   font-size:0.85rem;
   letter-spacing:0.02em;
   color:var(--steel);
   transition:color .15s ease, background .15s ease, border-color .15s ease;
 }
+.projects-side-nav .nav-index{
+  font-family:var(--font-mono), monospace;
+  font-size:0.66rem;
+  letter-spacing:0.02em;
+  color:var(--coat-dark);
+  opacity:0.55;
+  transition:opacity .15s ease;
+}
 .projects-side-nav a:hover{ color:var(--ink); background:var(--paper-2); border-left-color:var(--coat); }
+.projects-side-nav a.active{ color:var(--ink); background:var(--paper-2); border-left-color:var(--coat); font-weight:600; }
+.projects-side-nav a.active .nav-index,
+.projects-side-nav a:hover .nav-index{ opacity:1; color:var(--coat); }
 @media (max-width:899.98px){
   .projects-side-nav{
     flex-direction:row; flex-wrap:nowrap; overflow-x:auto;
-    gap:8px; padding-bottom:10px; border-bottom:1px solid var(--line);
+    gap:8px; padding-bottom:10px; padding-left:0;
+    border-left:none; border-bottom:1px solid var(--line);
   }
   .projects-side-nav a{
     flex:0 0 auto; white-space:nowrap;
     border-left:none; border-bottom:2px solid transparent;
-    padding:8px 2px; border-radius:0;
+    padding:8px 2px; margin-left:0; border-radius:0;
   }
-  .projects-side-nav a:hover{ background:none; border-color:var(--coat); }
+  .projects-side-nav a:hover,
+  .projects-side-nav a.active{ background:none; border-color:var(--coat); }
 }
 
 .project-section{ padding:40px 0; border-bottom:1px solid var(--line); }
