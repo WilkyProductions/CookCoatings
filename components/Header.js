@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import Image from "next/image";
 
 const NAV_LINKS = [
@@ -12,18 +13,21 @@ const NAV_LINKS = [
 ];
 
 export default function Header() {
+  const pathname = usePathname();
+  const isHome = pathname === "/";
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
+    if (!isHome) return;
     const onScroll = () => setScrolled(window.scrollY > 40);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  }, [isHome]);
 
   return (
-    <header className={scrolled ? "scrolled" : ""}>
+    <header className={scrolled || !isHome ? "scrolled" : ""}>
       <div className="nav-row">
         <a href="/" className="brand">
           <Image
