@@ -14,13 +14,7 @@ export default function Footer() {
           </div>
           <div>
             <h5>Head Office</h5>
-            <p>
-              41680 Enterprise Cir S.
-              <br />
-              STE A/B
-              <br />
-              Menifee, CA
-            </p>
+            <p>Temecula, CA 92590</p>
             <p style={{ marginTop: "10px" }}>
               Office: 951-296-2664
               <br />
@@ -53,8 +47,7 @@ export default function Footer() {
         </div>
         <div className="footer-bottom">
           <span>
-            &copy; 2026 Cook Coatings Inc. Cary Cook, President. Lic. CA 438394 / AZ ROC280037 /
-            NV 0072245.
+            &copy; 2026 Cook Coatings Inc. Lic. CA 438394 / AZ ROC280037 / NV 0072245.
           </span>
           <span style={{ display: "flex", gap: "18px" }}>
             <a href="#">Terms &amp; Conditions</a>

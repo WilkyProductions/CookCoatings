@@ -90,8 +90,15 @@ export default function ContactForm() {
       </div>
       <div className="form-row">
         <div className="form-field">
-          <label htmlFor="phone">Phone</label>
-          <input id="phone" name="phone" type="tel" value={form.phone} onChange={handleChange} />
+          <label htmlFor="phone">Phone *</label>
+          <input
+            id="phone"
+            name="phone"
+            type="tel"
+            required
+            value={form.phone}
+            onChange={handleChange}
+          />
         </div>
         <div className="form-field">
           <label htmlFor="company">Company / Business Name</label>

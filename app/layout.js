@@ -60,9 +60,9 @@ const roofingContractorSchema = {
   founder: { "@type": "Person", name: "Cary Cook" },
   address: {
     "@type": "PostalAddress",
-    streetAddress: "41680 Enterprise Cir S., STE A/B",
-    addressLocality: "Menifee",
+    addressLocality: "Temecula",
     addressRegion: "CA",
+    postalCode: "92590",
     addressCountry: "US",
   },
   areaServed: "United States",

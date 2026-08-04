@@ -77,11 +77,7 @@ export default function ContactPage() {
                   {PIN_ICON}
                   <div>
                     <span className="label">Office</span>
-                    <span className="value">
-                      41680 Enterprise Cir S., STE A/B
-                      <br />
-                      Menifee, CA
-                    </span>
+                    <span className="value">Temecula, CA 92590</span>
                   </div>
                 </li>
               </ul>

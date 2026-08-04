@@ -14,8 +14,11 @@ export async function POST(request) {
 
     const { name, email, phone, company, services, message } = await request.json();
 
-    if (!name || !email || !message) {
-      return Response.json({ error: "Name, email, and comments are required." }, { status: 400 });
+    if (!name || !email || !phone || !message) {
+      return Response.json(
+        { error: "Name, email, phone, and comments are required." },
+        { status: 400 }
+      );
     }
 
     const resend = new Resend(process.env.RESEND_API_KEY);
