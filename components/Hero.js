@@ -18,7 +18,7 @@ export default function Hero() {
         <h1>Commercial roof coatings built to outlast the building.</h1>
         <p className="lead">
           Cook Coatings Inc has installed spray polyurethane foam roofing, restoration, and
-          maintenance plans on commercial buildings nationwide since 1983 &mdash; without the
+          maintenance plans on commercial buildings nationwide since 1983, without the
           cost or waste of a full tear-off.
         </p>
         <div className="hero-ctas">

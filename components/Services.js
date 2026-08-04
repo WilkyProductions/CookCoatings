@@ -68,7 +68,7 @@ export default function Services() {
             <div className="service-card-body">
               <h3>Roof Restoration Systems</h3>
               <p>
-                A smarter alternative to full replacement &mdash; restoration with Poly-SIL
+                A smarter alternative to full replacement: restoration with Poly-SIL
                 membrane for long-lasting protection.
               </p>
               <a className="learn" href="#contact">

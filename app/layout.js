@@ -24,7 +24,7 @@ const plexMono = IBM_Plex_Mono({
 
 export const metadata = {
   metadataBase: new URL("https://www.cookcoatingsinc.com"),
-  title: "Commercial Roof Coatings & Maintenance Plans | Cook Coatings Inc (CCI) — Since 1983",
+  title: "Commercial Roof Coatings & Maintenance Plans | Cook Coatings Inc (CCI), Since 1983",
   description:
     "Cook Coatings Inc (CCI) installs commercial spray foam roofing, roof restoration, and roof maintenance plans nationwide since 1983. Licensed in CA, AZ, and NV. Get a free estimate.",
   alternates: {

@@ -7,8 +7,7 @@ export default function ContactCTA() {
         </span>
         <h2>Get a free quote for your roofing needs.</h2>
         <p>
-          Tell us about your building and we&apos;ll get back to you with next steps &mdash;
-          usually the same business day.
+          Tell us about your building and we&apos;ll get back to you with next steps.
         </p>
         <div className="ctas">
           <a className="btn btn-primary" href="tel:+19512962664">

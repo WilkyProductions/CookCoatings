@@ -5,7 +5,7 @@ import { useState } from "react";
 const FAQS = [
   {
     q: "What is spray polyurethane foam roofing?",
-    a: "A seamless, fully-adhered roof coating system that can often be applied directly over your existing roof — insulating, waterproofing, and reducing building movement without a full tear-off.",
+    a: "A seamless, fully-adhered roof coating system that can often be applied directly over your existing roof, insulating, waterproofing, and reducing building movement without a full tear-off.",
   },
   {
     q: "Do you have to tear off my existing roof first?",

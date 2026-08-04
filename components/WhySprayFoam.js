@@ -2,7 +2,7 @@ const BENEFITS = [
   {
     tag: "01",
     title: "Versatile application",
-    text: "Applies to irregular shapes and penetrations, often directly over your existing roof — eliminating costly tear-off and landfill waste.",
+    text: "Applies to irregular shapes and penetrations, often directly over your existing roof, eliminating costly tear-off and landfill waste.",
   },
   {
     tag: "02",
@@ -12,7 +12,7 @@ const BENEFITS = [
   {
     tag: "03",
     title: "Adheres to most surfaces",
-    text: "Metal, concrete, single-ply — spray foam bonds to nearly any substrate.",
+    text: "Metal, concrete, single-ply: spray foam bonds to nearly any substrate.",
   },
   {
     tag: "04",
@@ -22,7 +22,7 @@ const BENEFITS = [
   {
     tag: "05",
     title: "Superior insulation",
-    text: "Aged R-value of 6.7 per inch — among the best insulating roof systems available.",
+    text: "Aged R-value of 6.7 per inch, among the best insulating roof systems available.",
   },
   {
     tag: "06",
@@ -60,7 +60,7 @@ export default function WhySprayFoam() {
           <span className="eyebrow">Why Spray Foam</span>
           <h2>One roof system, fewer headaches.</h2>
           <p>
-            Spray polyurethane foam applies directly over most existing roofs &mdash; no tear-off,
+            Spray polyurethane foam applies directly over most existing roofs, no tear-off,
             no landfill waste, and a roof that keeps performing for decades.
           </p>
         </div>

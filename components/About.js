@@ -39,13 +39,13 @@ export default function About() {
             </h2>
             <p>
               Cary Cook founded Cook Coatings in 1983 to bring real craftsmanship to spray
-              polyurethane foam roofing &mdash; at a time when many contractors entered the trade
+              polyurethane foam roofing, at a time when many contractors entered the trade
               without the training to do it right. Through hands-on experience and continuous
               education, Cary built a reputation as one of the most trusted names in the industry.
             </p>
             <p>
               Today, known nationwide as CCI, the company still handles large commercial projects
-              and smaller jobs for national chains and franchises alike &mdash; with the same
+              and smaller jobs for national chains and franchises alike, with the same
               standard of quality and integrity Cary started with.
             </p>
             <blockquote>
@@ -53,7 +53,7 @@ export default function About() {
               assets of any company across the country, I invite you to contact me personally to
               discuss how we can help.&rdquo;
             </blockquote>
-            <p className="signature">&mdash; Cary Cook, President</p>
+            <p className="signature">Cary Cook, President</p>
           </div>
         </div>
       </div>

@@ -1,17 +1,17 @@
 import Image from "next/image";
 
-// Update titles/notes/photos any time — this is a placeholder pass with 6 of the
+// Update titles/notes/photos any time. This is a placeholder pass with 6 of the
 // uploaded photos so the section isn't empty; swap in the rest later.
 const PROJECTS = [
   {
-    title: "Hyatt Regency — Indian Wells",
+    title: "Hyatt Regency, Indian Wells",
     note: "Roof restoration, spray foam system",
     src: "/images/projects/hyatt-regency-indian-wells.jpg",
     alt: "Spray foam roof restoration at the Hyatt Regency Indian Wells",
   },
   {
     title: "Homenetmen Glendale Ararat Chapter",
-    note: "Glendale, CA — Roof coating system",
+    note: "Roof coating system, Glendale, CA",
     src: "/images/projects/homenetmen-glendale-ararat-chapter.jpg",
     alt: "Aerial view of completed roof coating at Homenetmen Glendale Ararat Chapter",
   },
@@ -48,6 +48,7 @@ export default function Projects() {
         <div className="section-head reveal">
           <span className="eyebrow">Recent Projects</span>
           <h2>A few roofs we&apos;ve kept dry.</h2>
+          <p>Check out some of our latest work. Click on any image to open the full project gallery.</p>
         </div>
         <div className="project-grid">
           {PROJECTS.map((project, i) => (
