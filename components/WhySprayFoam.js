@@ -1,53 +1,53 @@
 const BENEFITS = [
   {
-    tag: "01",
-    title: "Versatile application",
-    text: "Applies to irregular shapes and penetrations, often directly over your existing roof, eliminating costly tear-off and landfill waste.",
+    tag: "PERFORMANCE",
+    title: "Continuous insulation",
+    text: "A fully adhered, continuous insulation layer that applies directly over most existing roofs, eliminating costly tear-off and landfill waste.",
   },
   {
-    tag: "02",
-    title: "Stops leaks",
-    text: "Fully adhered, seamless membrane that's weather resistant from day one.",
+    tag: "PROTECTION",
+    title: "Seamless waterproofing",
+    text: "A fully adhered, seamless membrane that resists leaks and stays weather resistant from day one.",
   },
   {
-    tag: "03",
-    title: "Adheres to most surfaces",
-    text: "Metal, concrete, single-ply: spray foam bonds to nearly any substrate.",
+    tag: "PERFORMANCE",
+    title: "Monolithic assembly",
+    text: "Metal, concrete, single-ply: this fully adhered system bonds to nearly any substrate.",
   },
   {
-    tag: "04",
-    title: "Simplifies maintenance",
-    text: "Fewer seams and penetrations mean fewer places for problems to start.",
+    tag: "ECONOMICS",
+    title: "Predictable maintenance",
+    text: "Fewer seams and penetrations mean fewer places for problems to start, and lower lifecycle costs over time.",
   },
   {
-    tag: "05",
-    title: "Superior insulation",
-    text: "Aged R-value of 6.7 per inch, among the best insulating roof systems available.",
+    tag: "PERFORMANCE",
+    title: "Superior thermal efficiency",
+    text: "Aged R-value of 6.7 per inch, among the best insulating roof systems available, reducing energy consumption year-round.",
   },
   {
-    tag: "06",
-    title: "Reduces building movement",
-    text: "A monolithic membrane that flexes with the structure instead of cracking.",
+    tag: "PROTECTION",
+    title: "Wind and weather resistant",
+    text: "A monolithic membrane that flexes with the structure instead of cracking under wind and thermal movement.",
   },
   {
-    tag: "07",
+    tag: "ECONOMICS",
     title: "Lightweight system",
-    text: "Adds minimal structural load compared to traditional roofing systems.",
+    text: "Adds minimal structural load compared to traditional roofing systems, keeping installation costs down.",
   },
   {
-    tag: "08",
-    title: "UL 790 Class A fire rated",
-    text: "Meets UL 790 and UL 723 standards for fire performance.",
+    tag: "PROTECTION",
+    title: "Fire and UV resistant",
+    text: "Meets UL 790 and UL 723 standards for fire performance, Class A rated.",
   },
   {
-    tag: "09",
-    title: "Asbestos & formaldehyde free",
-    text: "A clean, modern material with no hidden health liabilities.",
+    tag: "SUSTAINABILITY",
+    title: "Clean, modern material",
+    text: "Asbestos and formaldehyde free, with no hidden health liabilities.",
   },
   {
-    tag: "10",
-    title: "35+ years proven",
-    text: "A roofing and insulation system with decades of verified field performance.",
+    tag: "SUSTAINABILITY",
+    title: "Renewable, long-life system",
+    text: "Designed to be renewed rather than replaced, with decades of verified field performance.",
     lastInRow: true,
   },
 ];
@@ -57,11 +57,12 @@ export default function WhySprayFoam() {
     <section id="why">
       <div className="container">
         <div className="section-head reveal">
-          <span className="eyebrow">Why Spray Foam</span>
-          <h2>One roof system, fewer headaches.</h2>
+          <span className="eyebrow">The High-Performance Difference</span>
+          <h2>Built for performance, protection, and long-term value.</h2>
           <p>
-            Spray polyurethane foam applies directly over most existing roofs, no tear-off,
-            no landfill waste, and a roof that keeps performing for decades.
+            This isn&apos;t just another roof. It&apos;s a seamless, high-performance roofing
+            system engineered to insulate, waterproof, and protect your building, while lowering
+            energy costs and extending roof life.
           </p>
         </div>
         <div className="benefits-wrap reveal">

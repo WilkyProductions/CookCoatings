@@ -8,8 +8,8 @@ export default function Footer() {
               Cook Coatings Inc
             </div>
             <p style={{ maxWidth: "36ch", color: "rgba(255,255,255,0.6)" }}>
-              Commercial spray foam roofing, restoration, and maintenance nationwide since
-              1983.
+              High-performance commercial roofing systems, restoration, and maintenance
+              nationwide since 1983.
             </p>
           </div>
           <div>

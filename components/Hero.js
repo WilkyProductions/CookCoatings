@@ -15,11 +15,11 @@ export default function Hero() {
       <div className="hero-overlay"></div>
       <div className="container hero-inner reveal">
         <span className="eyebrow">Nationwide &middot; Licensed CA / AZ / NV</span>
-        <h1>Commercial roof coatings built to outlast the building.</h1>
+        <h1>More than a roof. A high-performance building system.</h1>
         <p className="lead">
-          Cook Coatings Inc has installed spray polyurethane foam roofing, restoration, and
-          maintenance plans on commercial buildings nationwide since 1983, without the
-          cost or waste of a full tear-off.
+          Cook Coatings installs seamless, fully adhered roofing systems that insulate,
+          waterproof, and protect commercial buildings nationwide since 1983, lowering energy
+          costs and extending roof life without the cost or waste of a full tear-off.
         </p>
         <div className="hero-ctas">
           <a className="btn btn-primary" href="/contact">

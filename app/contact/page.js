@@ -6,12 +6,21 @@ import ScrollReveal from "@/components/ScrollReveal";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata = {
-  title: "Contact Us | Cook Coatings Inc (CCI)",
+  title: "Contact Us | Get a Commercial Roofing Estimate | Cook Coatings Inc (CCI)",
   description:
-    "Get a free estimate for commercial roof coating, restoration, or maintenance plans from Cook Coatings Inc.",
+    "Request a free estimate for commercial roof coating, restoration, or maintenance from Cook Coatings Inc. Licensed in CA, AZ, and NV, serving commercial properties nationwide since 1983.",
   alternates: {
     canonical: "https://www.cookcoatingsinc.com/contact",
   },
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.cookcoatingsinc.com/" },
+    { "@type": "ListItem", position: 2, name: "Contact", item: "https://www.cookcoatingsinc.com/contact" },
+  ],
 };
 
 const PHONE_ICON = (
@@ -37,6 +46,10 @@ export default function ContactPage() {
     <>
       <Header />
       <MobileActionBar />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <div className="blueprint-bg" aria-hidden="true">
         <div className="blueprint-photo"></div>
         <div className="blueprint-grid"></div>

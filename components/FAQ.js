@@ -4,24 +4,24 @@ import { useState } from "react";
 
 const FAQS = [
   {
-    q: "What is spray polyurethane foam roofing?",
-    a: "A seamless, fully-adhered roof coating system that can often be applied directly over your existing roof, insulating, waterproofing, and reducing building movement without a full tear-off.",
+    q: "What is a high-performance roofing system?",
+    a: "A seamless, fully adhered roofing assembly, built with spray polyurethane foam, that insulates, waterproofs, and protects your building while lowering energy costs and extending roof life. It's a complete building envelope solution, not just a roofing product.",
   },
   {
     q: "Do you have to tear off my existing roof first?",
-    a: "Usually not. In most cases spray foam can be applied over your existing roof, avoiding the cost, downtime, and landfill waste of a tear-off.",
+    a: "Usually not. In most cases the system can be applied directly over your existing roof, avoiding the cost, downtime, and landfill waste of a tear-off.",
   },
   {
     q: "How often should a commercial roof be maintained?",
-    a: "At least twice a year, plus after major storms. A maintenance plan catches small issues before they become costly leaks or an early replacement.",
+    a: "At least twice a year, plus after major storms. A maintenance plan protects your roofing asset by catching small issues before they become costly leaks or an early replacement.",
   },
   {
     q: "What's included in a Cook Coatings maintenance plan?",
-    a: "Scheduled inspections, minor repairs, drainage and debris checks, and priority response if something comes up between visits.",
+    a: "Scheduled inspections, minor repairs, drainage and debris checks, and priority response if something comes up between visits, delivering predictable costs instead of surprise ones.",
   },
   {
     q: "What areas do you service?",
-    a: "CCI is licensed in California, Arizona, and Nevada, with completed commercial projects nationwide.",
+    a: "CCI is licensed in California, Arizona, and Nevada, with completed commercial projects nationwide and select international locations.",
   },
 ];
 

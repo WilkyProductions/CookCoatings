@@ -8,12 +8,21 @@ import ProjectsSideNav from "@/components/ProjectsSideNav";
 import { PROJECTS } from "@/data/projects";
 
 export const metadata = {
-  title: "Project Gallery | Cook Coatings Inc (CCI)",
+  title: "Commercial Roofing Project Gallery | Cook Coatings Inc (CCI)",
   description:
-    "Browse commercial roof coating and restoration projects completed by Cook Coatings Inc nationwide.",
+    "Browse completed commercial roof coating, restoration, and spray foam roofing projects by Cook Coatings Inc, serving clients nationwide since 1983.",
   alternates: {
     canonical: "https://www.cookcoatingsinc.com/projects",
   },
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://www.cookcoatingsinc.com/" },
+    { "@type": "ListItem", position: 2, name: "Projects", item: "https://www.cookcoatingsinc.com/projects" },
+  ],
 };
 
 export default function ProjectsPage() {
@@ -21,6 +30,10 @@ export default function ProjectsPage() {
     <>
       <Header />
       <MobileActionBar />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <div className="blueprint-bg" aria-hidden="true">
         <div className="blueprint-photo"></div>
         <div className="blueprint-grid"></div>

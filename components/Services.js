@@ -13,7 +13,7 @@ export default function Services() {
       <div className="container">
         <div className="section-head reveal">
           <span className="eyebrow">Our Services</span>
-          <h2>Three ways we protect your roof.</h2>
+          <h2>Protect more than your roof.</h2>
         </div>
         <div className="service-cards">
           <div className="service-card featured reveal">
@@ -28,10 +28,10 @@ export default function Services() {
             <div className="service-card-body">
               <h3>Roof Maintenance Plans</h3>
               <p>
-                Scheduled maintenance that protects your investment, catches problems early, and
-                keeps your roof performing at its best year-round.
+                Scheduled maintenance that protects your roofing asset, catches problems early,
+                and keeps your building performing at its best year-round.
               </p>
-              <a className="learn" href="#maintenance">
+              <a className="learn" href="/services/maintenance-plans">
                 See what&apos;s included &rarr;
               </a>
             </div>
@@ -48,10 +48,10 @@ export default function Services() {
             <div className="service-card-body">
               <h3>New Roof System Applications</h3>
               <p>
-                A high-performance roof coating system designed to extend lifespan and prevent
-                costly damage from day one.
+                A seamless, high-performance roofing system engineered to insulate, waterproof,
+                and extend service life, preventing costly damage from day one.
               </p>
-              <a className="learn" href="/contact">
+              <a className="learn" href="/services/new-roof-systems">
                 Learn more &rarr;
               </a>
             </div>
@@ -68,10 +68,10 @@ export default function Services() {
             <div className="service-card-body">
               <h3>Roof Restoration Systems</h3>
               <p>
-                A smarter alternative to full replacement: restoration with Poly-SIL
-                membrane for long-lasting protection.
+                A smarter alternative to full replacement: renew and protect your existing roof
+                with Poly-SIL membrane restoration for long-lasting performance.
               </p>
-              <a className="learn" href="/contact">
+              <a className="learn" href="/services/roof-restoration">
                 Learn more &rarr;
               </a>
             </div>

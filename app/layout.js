@@ -24,27 +24,27 @@ const plexMono = IBM_Plex_Mono({
 
 export const metadata = {
   metadataBase: new URL("https://www.cookcoatingsinc.com"),
-  title: "Commercial Roof Coatings & Maintenance Plans | Cook Coatings Inc (CCI), Since 1983",
+  title: "High-Performance Commercial Roofing Systems | Cook Coatings Inc (CCI), Since 1983",
   description:
-    "Cook Coatings Inc (CCI) installs commercial spray foam roofing, roof restoration, and roof maintenance plans nationwide since 1983. Licensed in CA, AZ, and NV. Get a free estimate.",
+    "Cook Coatings Inc (CCI) installs seamless, high-performance roofing systems for commercial buildings, roof restoration, and maintenance plans that lower energy costs and extend roof life. Licensed in CA, AZ, and NV, nationwide since 1983.",
   alternates: {
     canonical: "https://www.cookcoatingsinc.com/",
   },
   openGraph: {
     type: "website",
     siteName: "Cook Coatings Inc",
-    title: "Commercial Roof Coatings & Maintenance Plans | Cook Coatings Inc",
+    title: "High-Performance Commercial Roofing Systems | Cook Coatings Inc",
     description:
-      "Nationwide commercial spray foam roofing, restoration, and maintenance plans since 1983. Licensed in CA, AZ, and NV.",
+      "Seamless, high-performance roofing systems that insulate, waterproof, and protect commercial buildings nationwide since 1983. Licensed in CA, AZ, and NV.",
     url: "https://www.cookcoatingsinc.com/",
     locale: "en_US",
     images: ["/images/hero-roof.jpg"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Commercial Roof Coatings & Maintenance Plans | Cook Coatings Inc",
+    title: "High-Performance Commercial Roofing Systems | Cook Coatings Inc",
     description:
-      "Nationwide commercial spray foam roofing, restoration, and maintenance plans since 1983. Licensed in CA, AZ, and NV.",
+      "Seamless, high-performance roofing systems that insulate, waterproof, and protect commercial buildings nationwide since 1983. Licensed in CA, AZ, and NV.",
   },
 };
 
@@ -66,9 +66,26 @@ const roofingContractorSchema = {
     postalCode: "92590",
     addressCountry: "US",
   },
-  areaServed: "United States",
+  image: "https://www.cookcoatingsinc.com/images/hero-roof.jpg",
+  areaServed: [
+    { "@type": "Country", name: "United States" },
+    { "@type": "State", name: "California" },
+    { "@type": "State", name: "Arizona" },
+    { "@type": "State", name: "Nevada" },
+  ],
   description:
-    "Commercial spray polyurethane foam roofing, roof restoration, and roof maintenance plans, serving commercial property owners nationwide since 1983.",
+    "High-performance, seamless roofing systems for commercial buildings, including spray polyurethane foam (SPF) roof systems, roof restoration, and maintenance plans that lower energy costs and extend roof life. Serving commercial property owners nationwide since 1983, with select international projects.",
+  knowsAbout: [
+    "High-performance roofing systems",
+    "Seamless, monolithic roof assemblies",
+    "Continuous insulation roofing systems",
+    "Spray polyurethane foam (SPF) roofing",
+    "Commercial roof restoration",
+    "Poly-SIL roof membrane systems",
+    "Commercial roof maintenance plans",
+    "Roof asset lifecycle management",
+    "UL 790 Class A fire-rated roofing",
+  ],
   hasCredential: [
     "California Contractor License CA 438394",
     "Arizona Contractor License AZ ROC280037",
@@ -80,8 +97,11 @@ const roofingContractorSchema = {
       itemOffered: {
         "@type": "Service",
         name: "New Roof System Applications",
+        serviceType: "High-performance commercial roofing system installation",
         description:
-          "High-performance spray polyurethane foam roof coating systems designed to extend roof lifespan and prevent costly damage.",
+          "A seamless, fully adhered, high-performance roofing system that insulates, waterproofs, and protects commercial buildings while lowering energy costs and preventing costly damage.",
+        provider: { "@type": "RoofingContractor", name: "Cook Coatings Inc" },
+        areaServed: "United States",
       },
     },
     {
@@ -89,7 +109,11 @@ const roofingContractorSchema = {
       itemOffered: {
         "@type": "Service",
         name: "Roof Restoration Systems",
-        description: "Roof restoration with Poly-SIL membrane as an alternative to full roof replacement.",
+        serviceType: "Commercial roof restoration and renewal",
+        description:
+          "Renew and protect your existing commercial roof with a seamless Poly-SIL membrane restoration system, an asset-preserving alternative to full roof replacement.",
+        provider: { "@type": "RoofingContractor", name: "Cook Coatings Inc" },
+        areaServed: "United States",
       },
     },
     {
@@ -97,8 +121,11 @@ const roofingContractorSchema = {
       itemOffered: {
         "@type": "Service",
         name: "Roof Maintenance Plans",
+        serviceType: "Commercial roof asset management",
         description:
-          "Scheduled commercial roof maintenance plans that catch small issues early, extend roof life, and prevent costly emergency repairs.",
+          "Scheduled roof maintenance plans that protect your roofing asset, catch small issues early, and deliver predictable costs instead of costly emergency repairs.",
+        provider: { "@type": "RoofingContractor", name: "Cook Coatings Inc" },
+        areaServed: "United States",
       },
     },
   ],
@@ -110,10 +137,18 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
+      name: "What is a high-performance roofing system?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "A high-performance roofing system is a seamless, fully adhered roofing assembly, built with spray polyurethane foam (SPF), that insulates, waterproofs, and protects a commercial building while lowering energy consumption and extending the roof's service life. It's engineered as a complete building envelope solution rather than a single roofing product.",
+      },
+    },
+    {
+      "@type": "Question",
       name: "What is spray polyurethane foam roofing?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Spray polyurethane foam (SPF) roofing is a seamless, fully-adhered roof coating system that can often be applied directly over an existing commercial roof. It insulates, waterproofs, and reduces building movement without the cost or landfill waste of a full tear-off.",
+        text: "Spray polyurethane foam (SPF) is the material behind Cook Coatings' high-performance roofing systems: a seamless, fully-adhered roof assembly that can often be applied directly over an existing commercial roof. It insulates, waterproofs, and reduces building movement without the cost or landfill waste of a full tear-off.",
       },
     },
     {
@@ -145,7 +180,23 @@ const faqSchema = {
       name: "What areas does Cook Coatings Inc service?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Cook Coatings Inc (CCI) is licensed in California, Arizona, and Nevada, and has completed commercial roofing projects nationwide.",
+        text: "Cook Coatings Inc (CCI) is licensed in California, Arizona, and Nevada, and has completed commercial roofing projects nationwide across the United States, as well as select international projects.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How long does spray polyurethane foam roofing last?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Spray polyurethane foam is a proven roofing and insulation system with decades of verified field performance. It forms a fully-adhered, seamless membrane with no seams or fasteners for water to penetrate, and a scheduled maintenance plan helps maximize its service life.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Is spray foam roofing fire safe and well insulated?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes. Cook Coatings' spray polyurethane foam roofing systems meet UL 790 and UL 723 standards for fire performance (UL 790 Class A) and provide an aged R-value of 6.7 per inch, among the best insulating roof systems available.",
       },
     },
   ],

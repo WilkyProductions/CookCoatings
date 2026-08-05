@@ -5,7 +5,7 @@ export default function ContactCTA() {
         <span className="eyebrow" style={{ color: "var(--coat)" }}>
           Get Started
         </span>
-        <h2>Get a free quote for your roofing needs.</h2>
+        <h2>Get a free quote for a high-performance roofing system.</h2>
         <p>
           Tell us about your building and we&apos;ll get back to you with next steps.
         </p>

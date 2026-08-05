@@ -26,12 +26,12 @@ export default function Maintenance() {
         <div className="maintenance-wrap">
           <div className="reveal">
             <span className="eyebrow">Most Requested Service</span>
-            <h2>Roof maintenance plans that prevent the expensive surprise.</h2>
+            <h2>Predictable maintenance, not expensive surprises.</h2>
             <p className="lead">
               A full replacement is the most expensive way to deal with a roof problem. A
-              maintenance plan is the cheapest. Scheduled visits catch small issues, ponding
-              water, minor punctures, worn flashing, before they become a leak, a claim, or a
-              capital expense.
+              maintenance plan is the cheapest. Scheduled visits protect your roofing asset by
+              catching small issues, ponding water, minor punctures, worn flashing, before they
+              become a leak, a claim, or an unplanned capital expense.
             </p>
             <ul className="maintenance-list">
               {MAINTENANCE_POINTS.map((point) => (
